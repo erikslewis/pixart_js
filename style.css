@@ -3,7 +3,6 @@
 .brush {
   width: 100px;
   height: 100px;
-  background: blue;
   margin: 15px auto;
 }
 
@@ -19,6 +18,12 @@ h1 {
   font-family: Monoton;
   font-size: 48px;
   text-align: center;
+  color: red;
+}
+h2{
+  text-align: center;
+    color: red;
+      font-family: fantasy;
 }
 
 .controls {
@@ -26,5 +31,22 @@ h1 {
 }
 
 body {
-  background-image: url('ps_neutral.png');
+  background-image: url('images/c6dfa22150790c670c988c5196f6ba0e.gif');
+}
+
+#set-color{
+  color: black;
+  font-weight: bolder;
+  border-style:solid;
+  border-color: black;
+  border-width: thick;
+  width: 100px;
+}
+
+#color-field{
+  font-weight: bolder;
+  border-style:solid;
+  border-color: black;
+  border-width: thick;
+
 }
